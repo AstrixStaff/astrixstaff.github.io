@@ -16,25 +16,20 @@ body {
 
 nav {
     background: #111a23;
-    padding: 18px 0;
+    padding: 16px 0;
     text-align: center;
     border-bottom: 1px solid #1f2a35;
+    font-size: 14px;
 }
 
-nav a {
-    margin: 0 18px;
-    text-decoration: none;
+nav span {
+    margin: 0 12px;
     color: #9fb3c8;
-    font-weight: 500;
-}
-
-nav a:hover {
-    color: #ffffff;
 }
 
 .container {
-    max-width: 950px;
-    margin: 80px auto;
+    max-width: 1000px;
+    margin: 60px auto;
     padding: 0 25px;
 }
 
@@ -47,21 +42,26 @@ h1 {
 .section {
     background: #111a23;
     padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     border: 1px solid #1f2a35;
 }
 
-h2 {
-    margin-top: 0;
-    font-weight: 500;
-    color: #c9d6e2;
+.rule {
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #ffffff;
+    font-weight: 600;
 }
 
 footer {
     margin-top: 80px;
     padding: 25px;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color: #6b7c8f;
     border-top: 1px solid #1f2a35;
 }
@@ -70,10 +70,13 @@ footer {
 <body>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="staff-rules.html">Staff Rules</a>
-    <a href="punishments.html">Punishments</a>
-    <a href="roles.html">Staff Roles</a>
+<span>[GENERAL]</span>
+<span>[STAFF RULES]</span>
+<span>[TICKETS]</span>
+<span>[PUNISHMENTS]</span>
+<span>[OATH/COMMANDS]</span>
+<span>[ROLES]</span>
+<span>[STAFF LIST]</span>
 </nav>
 
 <div class="container">
@@ -81,33 +84,66 @@ footer {
 <h1>Staff Rules</h1>
 
 <div class="section">
-<h2>Professional Conduct</h2>
-<p>
-All staff must maintain professionalism at all times.
-Personal conflicts must not influence moderation decisions.
-</p>
+
+<div class="rule">
+All staff members below <span class="highlight">Manager</span> must provide valid proof for every punishment issued.
 </div>
 
-<div class="section">
-<h2>Confidentiality</h2>
-<p>
-Internal information must not be shared outside the team.
-Leaking internal documents may result in immediate removal.
-</p>
+<div class="rule">
+Proof must be a <span class="highlight">full, uncropped screenshot</span> unless management explicitly approves otherwise.
 </div>
 
-<div class="section">
-<h2>Communication</h2>
-<p>
-Communicate clearly and respectfully.
-Escalate unresolved issues to management.
-</p>
+<div class="rule">
+Failure to comply with any staff rule will result in <span class="highlight">disciplinary action</span>.
+</div>
+
+<div class="rule">
+All disciplinary violations operate on a <span class="highlight">two-strike system</span>. Two strikes will result in removal. Severe breaches may escalate further and legal action may be taken where applicable.
+</div>
+
+<div class="rule">
+Use common sense at all times. Do not engage in or create unnecessary drama.
+</div>
+
+<div class="rule">
+Do not directly message higher staff regarding punishment decisions.  
+Seek input from other staff members first and escalate through your Subdivision Lead or Management within proper channels.
+</div>
+
+<div class="rule">
+Leaking any internal staff information, documentation, discussions, or decisions will result in immediate consequences.
+</div>
+
+<div class="rule">
+Staffing on known competitors of SMP-FINDER is prohibited and may result in demotion.
+</div>
+
+<div class="rule">
+Staff may not hold positions above <span class="highlight">Administrator</span> on pay-to-win (P2W) servers.
+</div>
+
+<div class="rule">
+Failure to maintain your mental health or properly communicate burnout may result in being placed on a <span class="highlight">forced Leave of Absence (LOA)</span>.
+</div>
+
+<div class="rule">
+When blacklisting a server, valid proof must be shown to the affected user before escalation.
+</div>
+
+<div class="rule">
+Asking for a promotion will automatically delay any future promotion consideration.
+</div>
+
+<div class="rule">
+These rules are separate from the Staff Oath and exist to ensure structure, protection, and accountability for both staff and management.
+</div>
+
 </div>
 
 </div>
 
 <footer>
-Astrix Studio Management
+Last Updated: 12/11/25 | Astrix Studio
 </footer>
 
 </body>
