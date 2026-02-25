@@ -26,10 +26,16 @@ nav a {
     text-decoration: none;
     color: #9fb3c8;
     font-weight: 500;
+    transition: color 0.15s ease;
 }
 
 nav a:hover {
     color: #ffffff;
+}
+
+nav a.active {
+    color: #ff3b3b;
+    font-weight: 600;
 }
 
 .container {
@@ -73,8 +79,8 @@ footer {
     <a href="index">Home</a>
     <a href="staff-rules">Staff Rules</a>
     <a href="punishments">Punishments</a>
-    <a href="oath">Oath</a>
     <a href="roles">Staff Roles</a>
+    <a href="oath" class="active">Staff Oath</a>
 </nav>
 
 <div class="container">
