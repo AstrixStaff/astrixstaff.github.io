@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astrix Studio | Staff Portal</title>
+<link rel="icon" type="image/png" href="Astrix_main.png">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #1b1f2b 0%, #0b0e14 60%);
+    color: white;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: rgba(10,10,15,0.6);
+    backdrop-filter: blur(10px);
+    padding: 18px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    z-index: 1000;
+}
+
+nav a {
+    color: #aaa;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff3c78;
+}
+
+.hero {
+    padding: 160px 20px 100px;
+    text-align: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(255,0,80,0.15) 0%, transparent 70%);
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.hero img {
+    width: 160px;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0 0 25px rgba(255,0,80,0.6));
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero p {
+    color: #bbb;
+    max-width: 600px;
+    margin: 15px auto 0;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px 100px;
+}
+
+.card {
+    background: rgba(20,25,35,0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.05);
+    padding: 30px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    border: 1px solid rgba(255,0,80,0.4);
+    box-shadow: 0 0 25px rgba(255,0,80,0.15);
+    transform: translateY(-4px);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #ff3c78;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="index">Home</a>
+    <a href="staff-rules">Staff Rules</a>
+    <a href="punishments">Punishments</a>
+    <a href="roles">Roles</a>
+</nav>
+
+<div class="hero">
+    <img src="Astrix_main.png" alt="Astrix Logo">
+    <h1>Astrix Studio Staff Portal</h1>
+    <p>Internal documentation, leadership structure, and operational standards for Astrix Studio.</p>
+</div>
+
+<div class="section">
+
+    <div class="card">
+        <h2>Management Hierarchy</h2>
+        <p>
+        Owner: James<br>
+        Executive: Rizen<br>
+        Managers: Banana, Jamie, Nosidian, Levi<br>
+        Staff Managers: Sharcks, Typo<br>
+        Human Resources: Sharcks, Typo<br>
+        Freelance Manager: Levi
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Core Principles</h2>
+        <p>
+        Professionalism. Confidentiality. Brand protection.<br>
+        Astrix Studio operates on discipline, clarity, and high execution standards.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+Astrix Studio © 2026
+</footer>
+
+</body>
+</html>
